@@ -1,5 +1,5 @@
 {
-    "name": "theodo-evolution/session-bundle",
+    "name": "skigun/session-bundle",
     "type": "symfony-bundle",
     "description": "The \"Theodo Evolution Session Integration\" bundle",
     "keywords": ["session", "symfony1", "symfony2"],
@@ -13,15 +13,15 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/http-foundation": "~2.1|~3.0",
-        "symfony/http-kernel": "~2.1|~3.0",
-        "symfony/config": "~2.1|~3.0",
-        "symfony/event-dispatcher": "~2.1|~3.0"
+        "symfony/http-foundation": "~2.1|~3.0|~4.0|~5.0|~6.0",
+        "symfony/http-kernel": "~2.1|~3.0|~4.0|~5.0|~6.0",
+        "symfony/config": "~2.1|~3.0|~4.0|~5.0|~6.0",
+        "symfony/event-dispatcher": "~2.1|~3.0|~4.0|~5.0|~6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
-        "symfony/dependency-injection": "~2.1|~3.0",
-        "symfony/yaml": "~2.1|~3.0"
+        "symfony/dependency-injection": "~2.1|~3.0|~4.0|~5.0|~6.0",
+        "symfony/yaml": "~2.1|~3.0|~4.0|~5.0|~6.0"
     },
     "minimum-stability": "dev",
     "target-dir": "Theodo/Evolution/Bundle/SessionBundle",
