@@ -1,7 +1,7 @@
 {
-    "name": "skigun/session-bundle",
+    "name": "bdupiol/session-bundle",
     "type": "symfony-bundle",
-    "description": "The \"Theodo Evolution Session Integration\" bundle",
+    "description": "The \"Theodo Evolution Session Integration\" bundle  (SF6 compat)",
     "keywords": ["session", "symfony1", "symfony2"],
     "homepage": "http://www.theodo.fr",
     "license": "MIT",
