@@ -2,7 +2,7 @@
 
 namespace Theodo\Evolution\Bundle\SessionBundle\Storage;
 
-use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage as BaseSessionStorage;
+use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorageFactory as BaseSessionStorage;
 
 /**
  *
