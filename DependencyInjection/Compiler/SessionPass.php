@@ -22,10 +22,10 @@ class SessionPass implements CompilerPassInterface
     public function process(ContainerBuilder $container)
     {
         // Make the session service use Evolution native storage class.
-        $container->getDefinition('session.storage.native')
+        $container->getDefinition('session.storage.factory.native')
             ->setClass($container->getParameter('theodo_evolution.session.storage.native.class'));
 
-        $container->getDefinition('session.storage.mock_file')
+        $container->getDefinition('session.storage.factory.mock_file')
             ->setClass($container->getParameter('theodo_evolution.session.storage.mock_file.class'));
     }
 }
