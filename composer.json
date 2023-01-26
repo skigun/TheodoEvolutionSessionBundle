@@ -1,5 +1,5 @@
 {
-    "name": "skigun/session-bundle",
+    "name": "bdupiol/session-bundle",
     "type": "symfony-bundle",
     "description": "The \"Theodo Evolution Session Integration\" bundle",
     "keywords": ["session", "symfony1", "symfony2"],
