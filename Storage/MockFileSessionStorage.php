@@ -2,7 +2,7 @@
 
 namespace Theodo\Evolution\Bundle\SessionBundle\Storage;
 
-use Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage as BaseSessionStorage;
+use Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorageFactory as BaseSessionStorage;
 
 /**
  * Class MockFileSessionStorage description.
