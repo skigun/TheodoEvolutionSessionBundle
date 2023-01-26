@@ -17,8 +17,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('theodo_tree_builder');
-        $rootNode = $treeBuilder->getRootNode('theodo_evolution_session');
+        $treeBuilder = new TreeBuilder();
+        $rootNode = $treeBuilder->root('theodo_evolution_session');
 
         $rootNode
             ->children()
